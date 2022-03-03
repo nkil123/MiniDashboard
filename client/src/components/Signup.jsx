@@ -19,7 +19,7 @@ export const Signup = () => {
   const navigate = useNavigate();
 
   const handleSubmit = () => {
-    fetch("http://localhost:4002/signup", {
+    fetch(" https://protected-ocean-24517.herokuapp.com/signup", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"

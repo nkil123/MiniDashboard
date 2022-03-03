@@ -39,7 +39,7 @@ export const Home = () => {
   useEffect(() => {
     console.log("enterd");
     fetch(
-      `http://localhost:4002/allStudents?page=${searchParams.get(
+      ` https://protected-ocean-24517.herokuapp.com/allStudents?page=${searchParams.get(
         "page"
       )}&&search=${searchParams.get("search")}&&sort=${searchParams.get(
         "sort"
