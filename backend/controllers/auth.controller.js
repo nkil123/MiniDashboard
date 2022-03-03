@@ -13,9 +13,9 @@ const token = payload => {
 router.get ('/', async (req, res) => {
   //   console.log ('teacher', req)
   //   console.log (res.teacher);
-  const teacher = req.teacher;
-  console.log (teacher, 'teacher');
-  return res.status (201).json (teacher);
+  // const teacher = req.teacher;
+  // console.log (teacher, 'teacher');
+  return res.status (201).json ("working");
 });
 
 router.post ('/signup', async (req, res) => {
