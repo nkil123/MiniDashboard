@@ -6,7 +6,7 @@ export const Student = () => {
   console.log("id", id);
   const [data, setData] = useState(null);
   useEffect(() => {
-    fetch(` https://protected-ocean-24517.herokuapp.com/myStudent/*/${id}`)
+    fetch(`https://protected-ocean-24517.herokuapp.com/myStudent/*/${id}`)
       .then((res) => {
         return res.json();
       })

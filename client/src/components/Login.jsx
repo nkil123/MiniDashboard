@@ -12,7 +12,7 @@ export const Login = () => {
   const navigate = useNavigate();
 
   const handleSubmit = () => {
-    fetch(" https://protected-ocean-24517.herokuapp.com/login", {
+    fetch("https://protected-ocean-24517.herokuapp.com/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
