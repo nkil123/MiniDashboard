@@ -4,6 +4,9 @@ const app = express ();
 
 app.use (express.json ());
 app.use (cors ());
+const corsOptions = {
+  origin: '*',
+};
 const authController = require ('./controllers/auth.controller');
 const studentController = require ('./controllers/student.controller');
 const testController = require ('./controllers/test.controller');

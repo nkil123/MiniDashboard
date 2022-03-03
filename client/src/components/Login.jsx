@@ -13,6 +13,7 @@ export const Login = () => {
 
   const handleSubmit = () => {
     fetch("https://protected-ocean-24517.herokuapp.com/login", {
+      mode:"cors",
       method: "POST",
       headers: {
         "Content-Type": "application/json"
